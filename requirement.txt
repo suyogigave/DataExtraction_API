@@ -3,4 +3,4 @@ pymongo[srv]==3.11.3
 pdfplumber==0.5.28
 gunicorn==20.1.0
 Werkzeug==2.1.2
-dnspython==2.3.0
+dnspython==2.6.1
