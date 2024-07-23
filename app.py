@@ -4,6 +4,7 @@ import ast
 import re
 import pdfplumber
 from pymongo import MongoClient
+from werkzeug.urls import url_quote
 
 # MongoDB credentials
 mongo_uri = "mongodb+srv://vedantassignment05:Oy6TBfr6NwolJu4Q@grapseeds.hu2f3kl.mongodb.net/?retryWrites=true&w=majority&appName=Grapseeds"
