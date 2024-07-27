@@ -8,7 +8,7 @@ from pymongo import MongoClient
 app = Flask(__name__)
 
 # MongoDB credentials
-mongo_uri = "your_mongo_uri"
+mongo_uri = os.getenv("MONGO_URI")
 database_name = "MAXLIFE"
 collection_name = "MAXLIFE_DATA"
 
