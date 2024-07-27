@@ -191,6 +191,3 @@ def upload_file():
         return jsonify({"message": "File processed successfully"}), 200
     else:
         return jsonify({"error": "Invalid file type"}), 400
-
-if __name__ == '__main__':
-    app.run(debug=True)
